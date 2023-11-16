@@ -1,5 +1,5 @@
 body {
-    background-color: FloralWhite;
+    background-color: rgb(222, 152, 11);
 }
 h1 {
     text-align: center;
@@ -11,4 +11,13 @@ h1 {
 #head2 {
     background-color: beige;
     color: dodgerblue;
+}
+.upper-content{
+    background-color: rgb(169, 112, 27);
+}
+.footer{
+    background-color: rgb(89, 129, 8);
+}
+.foo{
+    background-color: rgb(71, 46, 120);
 }
