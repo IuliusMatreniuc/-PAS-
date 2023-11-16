@@ -13,11 +13,22 @@ h1 {
     color: dodgerblue;
 }
 .upper-content{
-    background-color: rgb(169, 112, 27);
+    background-color: rgb(222, 152, 11);
 }
 .footer{
     background-color: rgb(89, 129, 8);
 }
 .foo{
     background-color: rgb(71, 46, 120);
+}
+div a {
+    background-color: rgb(222, 152, 11);
+    padding: 10px;
+}
+a > h1 {
+background-color: blanchedalmond;
+color: rgb(222, 152, 11);
+}
+a + a {
+    background-color: rgb(222, 152, 11);
 }
