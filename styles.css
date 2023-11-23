@@ -37,12 +37,12 @@ p:hover {
     font-weight: bold;
 }
 p::before {
-    content: "Title";
+    content: "Shawn";
     color:rgb(89, 129, 8);
     font-weight: bold;
 }
 p::after {
-    content: "yay";
+    content: "Mendes";
     color: rgb(222, 152, 11);
     font-weight: bold;
 }
