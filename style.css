@@ -32,3 +32,22 @@ color: rgb(222, 152, 11);
 a + a {
     background-color: rgb(222, 152, 11);
 }
+p:hover {
+    color:blueviolet;
+    font-weight: bold;
+}
+p::before {
+    content: "Title";
+    color:rgb(89, 129, 8);
+    font-weight: bold;
+}
+p::after {
+    content: "yay";
+    color: rgb(222, 152, 11);
+    font-weight: bold;
+}
+p::selection {
+    background-color: bisque;
+    color: black;
+
+}
