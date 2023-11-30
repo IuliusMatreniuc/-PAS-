@@ -100,4 +100,34 @@ p::selection {
     width:100%;
     filter:grayscale(100%) invert(100%);
   }
-  
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.image {
+    transition: width 5s; /* Transition for width property */
+    cursor: pointer;
+}
+
+.image:hover {
+    width: 800px; /* Change the width on hover */
+}
+
+.center {
+    text-align: center;
+}
+
+.image {
+    filter: grayscale(100%);
+    filter: brightness(0.5);
+}
+
+.image-animated {
+    animation: fadeIn 1s ease-in-out;
+}
